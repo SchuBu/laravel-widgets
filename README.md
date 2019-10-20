@@ -118,7 +118,8 @@ If you discover any security related issues, please email peter@schu-bu.de inste
 ## Credits
 
 - [Peter Schulze-Buxloh](https://github.com/schubu)
-- [Jeffry Way](https://gist.github.com/JeffreyWay)
+- [Jeffrey Way](https://gist.github.com/JeffreyWay)
+- [Marcel Pociot](https://github.com/mpociot)
 - [All Contributors](../../contributors)
 
 ## License

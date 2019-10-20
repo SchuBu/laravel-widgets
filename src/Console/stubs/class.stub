@@ -1,0 +1,21 @@
+<?php
+
+namespace App\Http\Widgets;
+
+use SchuBu\LaravelWidgets\LaravelWidgets;
+
+class DummyClassname extends LaravelWidgets
+{
+    public $exampleData = "Welcome to your widget!";
+
+    DummyViewPath
+
+    public function exampleMethod()
+    {
+        return [
+            "My first data",
+            "My second data",
+            "My third data"
+        ];
+    }
+}

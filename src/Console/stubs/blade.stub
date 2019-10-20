@@ -1,0 +1,22 @@
+{{--
+    you have access to every public variable or method that's defined in your widget class
+
+    DummyClassname
+    --------------------------------------------------------------------
+    ...
+        public $test = [1,2,3]
+
+        public function posts() {
+            return App\Posts::all();
+        }
+    ...
+
+    - you can access your data with {{$test}} and {{$posts}} within your blade!
+    - to include this blade-template into another blade-view use the widget directive:
+
+      @widget('DummyClassname')
+--}}
+<div>{{$exampleData}}</div>
+@foreach ($exampleMethod as $item)
+    {{$item}} <br>
+@endforeach

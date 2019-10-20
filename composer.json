@@ -1,0 +1,54 @@
+{
+    "name": "schubu/laravel-widgets",
+    "description": "Feature your blade view files with widgets to keep your controller classes clean",
+    "keywords": [
+        "schubu",
+        "laravel-widgets"
+    ],
+    "homepage": "https://github.com/schubu/laravel-widgets",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Peter Schulze-Buxloh",
+            "email": "peter@schu-bu.de",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "5.8.*"
+    },
+    "require-dev": {
+        "orchestra/testbench": "3.8.*",
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SchuBu\\LaravelWidgets\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SchuBu\\LaravelWidgets\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SchuBu\\LaravelWidgets\\LaravelWidgetsServiceProvider"
+            ],
+            "aliases": {
+                "LaravelWidgets": "SchuBu\\LaravelWidgets\\LaravelWidgetsFacade"
+            }
+        }
+    }
+}

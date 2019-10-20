@@ -1,4 +1,4 @@
-# Very short description of the package
+# Laravel Widget Package - keep your controllers clean and DRY
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/schubu/laravel-widgets.svg?style=flat-square)](https://packagist.org/packages/schubu/laravel-widgets)
 [![Build Status](https://img.shields.io/travis/schubu/laravel-widgets/master.svg?style=flat-square)](https://travis-ci.org/schubu/laravel-widgets)
